@@ -347,7 +347,7 @@ export const FOOTER_DATA = [
 export const NAV_LINKS = [
   {
     title: "About us",
-    link: "#about-us",
+    link: "/about",
   },
   {
     title: "Tech Stacks",
