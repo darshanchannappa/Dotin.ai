@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Logo + Name */}
         <Link
-          href="#about-us"
+          href="/about"
           className="flex items-center"
         >
           <Image
@@ -43,8 +43,8 @@ export const Navbar = () => {
 
             {/* Source Code */}
             <Link
-              href={LINKS.aboutUs}
-              target="_blank"
+              href="/contact"
+              // target="_blank"
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
